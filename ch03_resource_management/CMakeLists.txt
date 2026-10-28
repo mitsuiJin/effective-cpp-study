@@ -1,0 +1,5 @@
+add_item(item13_raii)
+add_item(item14_resource_copy_behavior)
+add_item(item15_raw_resource_access)
+add_item(item16_new_delete_pairs)
+add_item(item17_smart_ptr_standalone)

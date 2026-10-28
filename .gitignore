@@ -1,0 +1,6 @@
+# CMake / Visual Studio 빌드 결과
+out/
+build/
+.vs/
+CMakeUserPresets.json
+*.user

@@ -1,0 +1,8 @@
+add_item(item05_compiler_generated_functions)
+add_item(item06_disallow_generated_functions)
+add_item(item07_virtual_destructor)
+add_item(item08_exceptions_in_destructor)
+add_item(item09_virtual_call_in_ctor)
+add_item(item10_assignment_return_ref)
+add_item(item11_self_assignment)
+add_item(item12_copy_all_parts)

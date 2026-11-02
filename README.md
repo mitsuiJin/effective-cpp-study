@@ -8,6 +8,9 @@
 ```
 ch02_ctor_dtor_assign/       2장. 생성자, 소멸자, 대입 연산자 (항목 5~12)
 ch03_resource_management/    3장. 자원 관리 (항목 13~17)
+playground/                  연습장 (항목과 상관없이 자유롭게 테스트)
+  main.cpp                   늘 쓰는 이면지 → playground
+  <이름>.cpp                 저장해 둔 실험 → pg_<이름>
   itemNN_<주제>/main.cpp     항목 하나 = 실행 파일 하나
 ```
 
@@ -24,6 +27,9 @@ ch03_resource_management/    3장. 자원 관리 (항목 13~17)
 cmake -S . -B build
 cmake --build build --target item05_compiler_generated_functions
 ```
+
+연습장은 시작 항목에서 `playground.exe`를 고르거나 `--target playground`로 빌드합니다.
+연습한 내용을 남기고 싶으면 `main.cpp`를 `playground/<이름>.cpp`로 복사해 두세요. `pg_<이름>.exe`로 따로 실행할 수 있습니다.
 
 빌드 설정: C++20, 경고 수준 `/W4`, `/permissive-`, `/utf-8`
 
